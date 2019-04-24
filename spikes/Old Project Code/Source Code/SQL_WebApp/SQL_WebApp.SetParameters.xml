@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="http://eagle-ws-01/sql_webapp" />
+  <setParameter name="mainConn-Web.config Connection String" value="Server=eagle-sql01\questica; Database=QuesticaSandbox; uid=QuesticaApplication; Password=36]jRFpmK2P`w4Mt_pp&gt;5bu`h" />
+</parameters>

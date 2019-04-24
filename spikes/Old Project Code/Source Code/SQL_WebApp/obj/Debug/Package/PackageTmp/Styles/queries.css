@@ -1,0 +1,204 @@
+﻿/* LARGE TABLETS/COMPUTERS: FROM 1024 TO 1200px */
+@media only screen and (max-width: 1200px) {
+    
+}
+
+/* SMALL PHONES: FROM 0 TO 480px */
+@media only screen and (max-width: 480px) {
+    /* GENERAL SETUP */
+    .row {
+        width: 95%;
+    }
+
+    html,
+    body {
+        font-size: 15px;
+    }
+
+    /* HEADINGS */
+    h1 {
+        display: none;
+    }
+
+    /* GRIDVIEWS */
+	.GridView {
+        font-size: 85%;
+		margin-bottom: 10px;
+    }
+
+    /* HEADER */
+	header {
+		height: 125px;
+	}
+	
+    header img {
+        width: 100px;
+        height: auto;
+        margin: 20px 0 0 100px;
+    }
+
+    /* INFORMATION */
+    .information {
+        padding: 0 10px 0 0;
+        margin: 25px auto;
+        width: 75%;
+        border: 1px solid #2980b9;
+    }
+
+    input[type=text],
+    input[type=password],
+	.ddl {
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        margin: 7px 0;
+    }
+	
+	.infoLabel {
+		margin: 7px 0;
+		padding: 2px;
+	}
+
+    /* BUTTONS */
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+        margin: 10px 0;
+		padding: 1% 2%;
+    }
+
+    /* MAIN NAVIGATION */
+    .main-nav {
+        margin-top: 60px;
+        font-size: 80%;
+        padding-right: 1%;
+    }
+
+    .main-nav li {
+        margin-left: 10px;
+    }
+}
+
+/* SMALL PHONES/TABLETS: FROM 481 TO 767px */
+@media only screen and (max-width: 767px) {
+	/* GENERAL SETUP */
+    .row {
+		width: 95%;
+	}
+	
+	html,
+	body {
+		font-size: 15px;
+	}
+	
+	/* HEADINGS */
+	h1 {
+		margin: 60px 0 0 0;
+		font-size: 180%;
+		padding: 0;
+	}
+	
+	/* HEADER */
+	header {
+		height: 150px;
+	}
+	
+	header img {
+		width: 115px;
+		height: auto;
+		margin: 20px 0 0 0;
+	}
+	
+	/* BUTTONS */
+	.btn:link,
+    .btn:visited,
+    input[type=submit] {
+        margin: 10px 10px 10px 0;
+		font-size: 80%;
+		padding: 5px 20px;
+    }
+	
+	/* MAIN-NAVIGATION */
+	.main-nav {
+		font-size: 20%;
+	}
+	
+	.main-nav li {
+		margin-left: 5px;
+	}
+	
+	/* GRIDVIEWS */
+	.GridView {
+		font-size: 90%;
+		margin-bottom: 0px;
+	}
+	
+	/* INFORMATION */
+	.information {
+		width: 85%;
+	}
+	
+	input[type=text],
+    input[type=password],
+	.ddl {
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        margin: 7px 0;
+    }
+	
+	span {
+		margin-top: 7px;
+	}
+}
+
+/* TABLETS: FROM 768 TO 1023px */
+@media only screen and (max-width: 1023px) {
+    /* GENERAL SETUP */
+	.row {
+		width: 90%;
+	}
+	
+	html,
+	body {
+		font-size: 20px;
+	}
+	
+	/* HEADINGS */
+	h1 {
+		margin-top: 70px;
+		font-size: 200%;
+	}
+	
+	/* HEADER */
+	header img {
+		margin: 30px 0 0 30px;
+		width: 150px;
+		height: auto;
+	}
+	
+	.main-nav {
+		margin-top: 90px;
+		font-size: 95%
+	}
+	
+	.main-nav li {
+		margin-left: 8px;
+	}
+	
+	/* INFORMATION */
+	.information {
+		margin-top: 25px;
+		width: 70%
+	}
+	
+	input[type=text],
+    input[type=password],
+	.ddl {
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        margin: 7px 0;
+    }
+}
+

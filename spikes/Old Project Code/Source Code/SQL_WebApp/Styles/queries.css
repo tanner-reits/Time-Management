@@ -1,0 +1,153 @@
+﻿/* SMALL PHONES/TABLETS: FROM 481 TO 767px */
+@media only screen and (max-width: 767px) {
+    /* GENERAL SETUP */
+    .row {
+        width: 95%;
+    }
+
+    html,
+    body {
+        font-size: 15px;
+    }
+
+    /* HEADINGS */
+    h1 {
+        margin: 60px 0 0 0;
+        font-size: 180%;
+        padding: 0;
+    }
+
+    /* HEADER */
+    header {
+        height: 150px;
+    }
+
+        header img {
+            height: 95px;
+            width: auto;
+            margin: 0 0 0 0;
+        }
+
+    /* BUTTONS */
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+        margin: 10px 10px 10px 0;
+        font-size: 80%;
+        padding: 5px 20px;
+    }
+
+    /* MAIN-NAVIGATION */
+    .main-nav {
+        font-size: 20%;
+    }
+
+        .main-nav li {
+            margin-left: 5px;
+        }
+
+    /* GRIDVIEWS */
+    .GridView {
+        font-size: 90%;
+        margin-bottom: 0px;
+    }
+
+    /* INFORMATION */
+    .information {
+        width: 85%;
+    }
+
+    input[type=text],
+    input[type=password],
+    .ddl {
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        margin: 7px 0;
+    }
+
+    span {
+        margin-top: 7px;
+    }
+}
+
+/* SMALL PHONES: FROM 0 TO 480px */
+@media only screen and (max-width: 480px) {
+    /* GENERAL SETUP */
+    .row {
+        width: 95%;
+    }
+
+    html,
+    body {
+        font-size: 15px;
+    }
+
+    /* HEADINGS */
+    h1 {
+        display: none;
+    }
+
+    /* GRIDVIEWS */
+    .GridView {
+        font-size: 85%;
+        margin-bottom: 10px;
+    }
+
+    .time-edit .GridView {
+        font-size: 80%;
+    }
+
+    /* HEADER */
+    header {
+        height: 125px;
+    }
+
+        header img {
+            height: 100px;
+            width: auto;
+            margin: 10 0;
+            align-content: center;
+        }
+
+    /* INFORMATION */
+    .information {
+        padding: 0 10px 0 0;
+        margin: 25px auto;
+        width: 75%;
+        border: 1px solid #2980b9;
+    }
+
+    input[type=text],
+    input[type=password],
+    .ddl {
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        margin: 7px 0;
+    }
+
+    .infoLabel {
+        margin: 7px 0;
+        padding: 2px;
+    }
+
+    /* BUTTONS */
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+        margin: 10px 0;
+        padding: 1% 2%;
+    }
+
+    /* MAIN NAVIGATION */
+    .main-nav {
+        margin-top: 60px;
+        font-size: 80%;
+        padding-right: 1%;
+    }
+
+    .main-nav li {
+        margin-left: 10px;
+    }
+}

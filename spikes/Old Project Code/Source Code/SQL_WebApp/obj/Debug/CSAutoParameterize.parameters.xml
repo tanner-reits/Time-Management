@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="mainConn-Web.config Connection String" description="mainConn Connection String used in web.config by the application to access the database." defaultValue="Server=eagle-sql01\questica; Database=QuesticaSandbox; uid=QuesticaApplication; Password=36]jRFpmK2P`w4Mt_pp&gt;5bu`h" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\reitst\\Documents\\Visual\ Studio\ 2017\\Projects\\SQL_WebApp\\SQL_WebApp\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='mainConn']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,214 @@
+/* BASIC SETUP */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #909090;
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 30px 0;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* HEADINGS */
+h1 {
+    padding-top: 2%;
+    color: #fff;
+    font-size: 300%;
+    text-transform: uppercase;
+    font-weight: 100;
+    height: 100%;
+    margin: 50px 120px 0 0;
+	float: right;
+}
+
+h2 {
+    font-size: 100%;
+    margin: 20px 0;
+}
+
+/* BUTTONS */
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    border: 1px solid #2980b9;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #2980b9;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #236d9d;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(#484848, #717171);
+    background-size: cover;
+}
+
+header img {
+    float: left;
+    height: 190px;
+    width: auto;
+}
+
+/* INFORMATION */
+.information {
+    padding: 0 10px;
+    margin: 10px auto;
+    width: 40%;
+    border: 1px solid #2980b9;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 2px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+/* MAIN NAVIGATION */
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top: 80px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #fff;
+}
+
+/* TIME-ENTRY */
+.ddl,
+.txtHours {
+    width: 100%;
+    height: 25px;
+}
+
+.entry-fields {
+    margin-top: 20px;
+}
+
+.GridView {
+    margin: 12px 0 20px 0;
+    width: 100%;
+    font-family: 'Arimo', 'Arial', sans-serif;
+    text-align: center;
+}
+
+.GridView td {
+    padding: 2px 5px;
+}
+
+.GridViewHeaderStyle {
+    font-weight: 400;
+}
+
+.valid {
+    font-size: 80%;
+    color: #ff0000;
+    font-weight: 400;
+    margin: 0;
+}
+
+.lblTotalHours {
+    font-family: 'Arimo', 'Arial', sans-serif;
+    font-weight: 200;
+}
+
+/* TIME-EDIT */
+.GridView a:link,
+.GridView a:visited {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #2980b9;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.GridView a:hover,
+.GridView a:active {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #236d9d;
+    border-bottom: 1px solid #236d9d;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+.GridViewSelectedRowStyle {
+    background-color: #86bfe4;
+    color: #fff;
+}
+
+.time-edit h2 {
+    margin-top: 0;
+}
+
+/* REVIEW SCREEN */
+.review .GridView {
+    margin-top: 30px;
+}
