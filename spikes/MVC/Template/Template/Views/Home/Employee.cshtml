@@ -1,0 +1,22 @@
+﻿@model Template.Models.Employee
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee</title>
+</head>
+<body>
+    @foreach (var item in Model)
+    {
+        <div>
+            @item.Name
+            <hr />
+        </div>
+    }
+</body>
+</html>
+

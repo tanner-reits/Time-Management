@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{0CE5DD21-CA94-428E-9FB2-7222BBA74BFC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Template/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Template/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Template.Tests/Controllers/HomeControllerTest.cs" Line="1" Column="1" />
+      <File FileName="Template/Models/Employee.cs" Line="17" Column="1" />
+      <File FileName="Template/Controllers/EmployeeController.cs" Line="59" Column="23" />
+      <File FileName="Template/Views/Home/Employee.cshtml" Line="1" Column="1" />
+      <File FileName="Template/Views/Shared/_Layout.cshtml" Line="33" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Template" expanded="True">
+            <Node name="Template" expanded="True">
+              <Node name="App_Start" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Template.Tests" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Template PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
